@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello World - Phila
+title: Hello World
 date: 2016-06-27 12:48:24.000000000 +09:00
 ---
 
