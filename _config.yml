@@ -5,7 +5,7 @@ subtitle: 当你开始跑步，你就和别人不一样。
 #description: Vno Jekyll is a port of my Ghost theme vno.
 #creator: <a href="http://onev.cat">@onevcat</a>
 
-url: "http://vno.onevcat.com"
+url: "http://shaohcuan.me"
 
 permalink: /:year/:month/:title/
 
@@ -40,11 +40,11 @@ comment:
     
 # Social
 social:
-    weibo: onevcat
-    github: onevcat
-    twitter: onevcat
-    gplus: 107108267983477358170
-    mail: onev@onevcat.com
+    weibo: 1638042182
+    github: imphila
+    twitter: ImphilaPhila
+    #gplus: 107108267983477358170
+    mail: 851045786@qq.com
 
 # Google Analytics
 ga:
