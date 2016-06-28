@@ -49,7 +49,7 @@ fib(n-2) fib(n-3) fib(n-3) fib(n-4)
 使用递归的算法计算了大量重复的节点，而且重复的节点随着n的增大急剧增加。计算一个新的fib(n+1)会将已经算好的fib(n)重新计算一次。效率非常低。这个算法的时间复杂度是O(1.6ⁿ)。
 
 
-![](https://github.com/imphila/imphila.github.io/blob/master/assets/blogresource/fib20.png)
+![](https://raw.githubusercontent.com/imphila/imphila.github.io/master/assets/blogresource/fib20.png)
 
 可以看到计算fib(20)执行了10946次，而且速度非常慢，计算fib(30)我已经没有耐心等结果了。那么，怎么来优化呢？
 
@@ -70,7 +70,7 @@ func fibSample(n: Int)->Int
 }
 {% endhighlight %}
 
-![](https://github.com/imphila/imphila.github.io/blob/master/assets/blogresource/fibSample50.png)
+![](https://raw.githubusercontent.com/imphila/imphila.github.io/master/assets/blogresource/fibSample50.png)
 
 这个算法的时间复杂度为0(N)。
 
