@@ -35,8 +35,8 @@ paginate_path: "page/:num/"
 
 # Comment
 comment:
-    disqus: phila
-    # duoshuo: 
+    #disqus: phila
+    duoshuo: imphila 
     
 # Social
 social:
