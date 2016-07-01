@@ -56,7 +56,6 @@ fib(n-2)  fib(n-3) fib(n-3) fib(n-4)
 
 ####使用字典来实现
 优化，首先想到的就是避免重复的计算。我们可以使用字典来保存已经算好的值。从小到大计算。看了代码就很容易理解了。
-
 ``` swift
 func fibSample(n: Int)->Int
 {
@@ -70,8 +69,6 @@ func fibSample(n: Int)->Int
     return dict[n]!
 }
 ```
-
-
 
 ![](https://raw.githubusercontent.com/imphila/imphila.github.io/master/assets/blogresource/fibSample50.png)
 
