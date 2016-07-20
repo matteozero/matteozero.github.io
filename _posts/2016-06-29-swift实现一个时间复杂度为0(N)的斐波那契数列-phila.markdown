@@ -54,11 +54,13 @@ fib(n-2)  fib(n-3) fib(n-3) fib(n-4)
 可以看到计算fib(20)执行了10946+10945次，速度非常慢，计算fib(30)我已经没有耐心等结果了。那么，怎么来优化呢？
 
 
-####使用字典来实现
-优化，首先想到的就是避免重复的计算。我们可以使用字典来保存已经算好的值。从小到大计算。看了代码就很容易理解了。
+####使用字典或数组来实现
+优化，首先想到的就是避免重复的计算。我们可以使用字典或者数组来保存已经算好的值。从小到大计算。看了代码就很容易理解了。
+
+字典
 
 ``` swift
-func fibSample(n: Int)->Int
+func fibDict(n: Int)->Int
 {
     var dict = [Int:Int]()
     dict[0] = 0
@@ -70,6 +72,25 @@ func fibSample(n: Int)->Int
     return dict[n]!
 }
 ```
+数组
+
+``` swift
+
+func fibArr(n: Int)->Int
+{
+    var result = [Int]()
+    result.append(0)
+    result.append(1)
+    for i in 2...n
+    {
+        result.append(result[i-1]+result[i-2])
+    }
+    return result[n]
+
+}
+
+```
+
 
 
 
