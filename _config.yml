@@ -5,13 +5,16 @@ subtitle: 当你开始跑步，你就和别人不一样。
 #description: Vno Jekyll is a port of my Ghost theme vno.
 #creator: <a href="http://onev.cat">@onevcat</a>
 
-url: "http://shaohcuan.me"
+url: "http://phila.me"
 
 permalink: /:year/:month/:title/
 
 # Format
 highlighter: plain
-markdown: redcarpet
+#markdown: redcarpet
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", tables]
 
