@@ -1,20 +1,84 @@
----
-layout: default
----
+<!doctype html>
+<html lang="en">
 
-<div class="main-post-list hidden">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <ol class="post-list">
-    {% for post in paginator.posts %}
-    <li>
-      <h2 class="post-list__post-title post-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title }}</a></h2>
-      <p class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 250 }}&hellip;</p>
-      <div class="post-list__meta"><time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">{{ post.date | date: "%F"}}</time> &#8226; <span class="post-list__meta--tags tags">{{ post.tags }}</span><a class="btn-border-small" href={{ post.url }}>继续阅读</a></div>
-      <hr class="post-list__divider" />
-    </li>
-    {% endfor %}
-  </ol>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-  {% include pagination.html %}
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
 
-</div>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,300,600" rel="stylesheet">
+
+    <!-- Ionic icons -->
+    <link href="assets/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
+
+    <title>Capo App</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/images/logo-dark.svg" class="logo-navbar"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		</button>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a href="releases/capo-release.apk" download>下载 apk</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <section class="bg-dark">
+        <div class="container">
+            <div class="heading-block">
+                <h3 class="text-light">RChain 手机钱包</h3>
+                <p class="text-light">支持创建，导入钱包，支持多钱包操作。支持二维码收款，转账。支持自定义节点。</p>
+            </div>
+            <div class="text-center topmargin-lg">
+                <img src="assets/images/iphone.png" class="img-fluid mobile-app" alt="iphone image by Zee Swift">
+            </div>
+            <div class="heading-block">
+                <h3 class="text-light topmargin-sm">Download it now</h3>
+                <div class="topmargin-sm">
+                    <a href="https://testflight.apple.com/join/k5HpQbcV" class="primary-btn"><i class="icon ion-logo-apple"></i> App Store</a>
+                    <a href="https://play.google.com/store/apps/details?id=app.icapo.capo" class="primary-btn"><i class="icon ion-md-play"></i> Google Play</a>
+                </div>
+                <small class="topmargin-sm text-light">您的REV非常宝贵，为了您的资产安全，切勿通过官网以外的地址下载 apk 文件。</small>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="footer" class="bg-dark">
+        <div class="container text-center">
+            <a href="#"><img src="assets/images/logo-light.svg" class="img-responsive logo-footer" alt="logo Mobile App | Themes Bootstrap"></a>
+
+            <p></p>
+            <small class="topmargin-sm">Copyright &copy; Capo All rights reserved.<a target="_blank" href="https://wallet.icapo.app/"></a></small>
+        </div>
+    </section>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
