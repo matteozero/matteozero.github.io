@@ -1,0 +1,12 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "R5ELA5SMHU.app.icapo.wallet",
+                "paths": [ "*" ]
+            }
+          
+        ]
+    }
+}
