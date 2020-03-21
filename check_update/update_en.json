@@ -4,9 +4,9 @@
     "isForce": false,
     "isIgnorable": false,
     "versionCode": 1,
-    "versionName": "0.0.2",
+    "versionName": "0.0.3",
     "updateContent": "1. Add version update.\n2. Bug fixed.\n3. UI update.",
     "downloadUrl": "https://icapo.app/releases/capo-release.apk",
-    "apkSize": 21299.2,
-    "apkMd5": "80b1aa6b9ae421129eaaf3607dfb4f58"
+    "apkSize": 20275,
+    "apkMd5": "cc28f8d2024dc4d8b039418d5eefe160"
 }
