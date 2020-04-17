@@ -44,13 +44,13 @@ var isiOS = function() {
         return true;
     }
     if (navigator.userAgent.match(/android/i)) { //判断是否是Android
-        return faslse;
+        return false;
     }
     return false;
 }
 
 
-var downloadUrlTapped = function() {
+var downloadCapoUrlTapped = function() {
     var isiPhone = isiOS();
     if (isiPhone) {
         alert("apk文件仅 Android 用户使用，iOS 用户请通过下方 TestFlight 下载安装");
