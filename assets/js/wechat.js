@@ -1,3 +1,30 @@
+var isiOS = function() {
+    if (navigator.userAgent.match(/(iPhone|iPod|iPad);?/i)) { //判断是否是iOS
+        return true;
+    }
+    if (navigator.userAgent.match(/android/i)) { //判断是否是Android
+        return false;
+    }
+    return false;
+};
+
+
+var downloadCapoUrlTapped = function() {
+    var isiPhone = isiOS();
+    if (isiPhone) {
+        alert("apk文件仅 Android 用户使用，iOS 用户请通过下方 TestFlight 下载安装");
+        return;
+    }
+    if ((browser.version.QQ && !browser.version.QQbrw) || browser.version.weiXin ||
+        browser.version.alipay ||
+        browser.version.weiBo) {
+        alert("请在浏览器中打开");
+        return;
+    }
+
+    window.location = "https://capo-release.oss-cn-beijing.aliyuncs.com/capo-release.apk"; //android下载地址
+};
+
 var browser = {
     version: function() {
         var u = navigator.userAgent;
@@ -36,32 +63,4 @@ var browser = {
             ucSB: u.indexOf('Firofox/1.') > -1
         };
     }()
-};
-
-
-var isiOS = function() {
-    if (navigator.userAgent.match(/(iPhone|iPod|iPad);?/i)) { //判断是否是iOS
-        return true;
-    }
-    if (navigator.userAgent.match(/android/i)) { //判断是否是Android
-        return false;
-    }
-    return false;
-}
-
-
-var downloadCapoUrlTapped = function() {
-    var isiPhone = isiOS();
-    if (isiPhone) {
-        alert("apk文件仅 Android 用户使用，iOS 用户请通过下方 TestFlight 下载安装");
-        return;
-    }
-    if ((browser.version.QQ && !browser.version.QQbrw) || browser.version.weiXin ||
-        browser.version.alipay ||
-        browser.version.weiBo) {
-        alert("请在浏览器中打开");
-        return;
-    }
-
-    window.location = "https://capo-release.oss-cn-beijing.aliyuncs.com/capo-release.apk"; //android下载地址
 };
