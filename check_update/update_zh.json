@@ -4,7 +4,7 @@
     "isForce": true,
     "isIgnorable": false,
     "versionCode": 1,
-    "versionName": "0.0.3",
+    "versionName": "0.0.5",
     "updateContent": "1. 修复无法转账bug。",
     "downloadUrl": "https://capo-release.oss-cn-beijing.aliyuncs.com/capo-release-v0.0.5.apk",
     "apkSize": 20275,
