@@ -4,9 +4,9 @@
     "isForce": false,
     "isIgnorable": false,
     "versionCode": 1,
-    "versionName": "0.0.2",
-    "updateContent": "1. 增加版本更新功能。\n2. bug 修复。\n3. UI 更新。",
-    "downloadUrl": "https://capo-release.oss-cn-beijing.aliyuncs.com/capo-release.apk",
+    "versionName": "0.0.3",
+    "updateContent": "1. 扫描二维码识别 REV 地址优化。\n2. 收款金额显示优化。",
+    "downloadUrl": "https://capo-release.oss-cn-beijing.aliyuncs.com/capo-release-v0.0.3.apk",
     "apkSize": 20275,
-    "apkMd5": "9aa5fa24f2f8de23178d4141ec1063df"
+    "apkMd5": "cac27518b790f931b236322d270a8301"
 }

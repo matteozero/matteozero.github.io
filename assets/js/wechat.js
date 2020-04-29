@@ -22,7 +22,7 @@ var downloadCapoUrlTapped = function() {
         return;
     }
 
-    window.location = "https://capo-release.oss-cn-beijing.aliyuncs.com/capo-release.apk"; //android下载地址
+    window.location = "https://capo-release.oss-cn-beijing.aliyuncs.com/capo-release-v0.0.3.apk"; //android下载地址
 };
 
 var browser = {
