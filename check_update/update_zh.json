@@ -5,7 +5,7 @@
     "isIgnorable": false,
     "versionCode": 1,
     "versionName": "0.0.7",
-    "updateContent": "1. 优化转账确认机制。\n2.感谢 will 提供的服务器和技术支持。",
+    "updateContent": "1. 优化转账确认机制。\n2. 感谢 will 提供的服务器和技术支持。",
     "downloadUrl": "https://capo-release.oss-cn-beijing.aliyuncs.com/capo-release-v0.0.7.apk",
     "apkSize": 20275,
     "apkMd5": "4436d3ecc384a8a63bf60a0e3736195d"
