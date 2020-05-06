@@ -4,9 +4,9 @@
     "isForce": false,
     "isIgnorable": false,
     "versionCode": 1,
-    "versionName": "0.0.6",
-    "updateContent": "1. readonly node use HTTPS.\n 2. transfer detail page UI update.\n3.use random node.",
-    "downloadUrl": "https://icapo.app/releases/capo-release-v0.0.6.apk",
+    "versionName": "0.0.7",
+    "updateContent": "1. Optimize transfer confirmation mechanism.\n2.Thanks to will for the server and technical support.",
+    "downloadUrl": "https://icapo.app/releases/capo-release-v0.0.7.apk",
     "apkSize": 20275,
-    "apkMd5": "4c5e1b05ede37821ddb8ea4d23a7ddb2"
+    "apkMd5": "4436d3ecc384a8a63bf60a0e3736195d"
 }

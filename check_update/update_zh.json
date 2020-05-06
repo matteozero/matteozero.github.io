@@ -4,9 +4,9 @@
     "isForce": false,
     "isIgnorable": false,
     "versionCode": 1,
-    "versionName": "0.0.6",
-    "updateContent": "1. 只读节点使用 HTTPS。\n2. iOS 转账详情UI优化。\n3. 随机选择节点。",
-    "downloadUrl": "https://capo-release.oss-cn-beijing.aliyuncs.com/capo-release-v0.0.6.apk",
+    "versionName": "0.0.7",
+    "updateContent": "1. 优化转账确认机制。\n2.感谢 will 提供的服务器和技术支持。",
+    "downloadUrl": "https://capo-release.oss-cn-beijing.aliyuncs.com/capo-release-v0.0.7.apk",
     "apkSize": 20275,
-    "apkMd5": "4c5e1b05ede37821ddb8ea4d23a7ddb2"
+    "apkMd5": "4436d3ecc384a8a63bf60a0e3736195d"
 }
