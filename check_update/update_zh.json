@@ -1,12 +1,12 @@
 {
     "code": 1,
     "msg": "",
-    "isForce": true,
+    "isForce": false,
     "isIgnorable": false,
     "versionCode": 1,
-    "versionName": "0.0.9",
-    "updateContent": "1. 增加验证节点。\n2. 转账可自动选择最优节点。\n3. 链上转账记录。",
-    "downloadUrl": "https://capo-release.oss-cn-beijing.aliyuncs.com/app-release-v0.0.9.apk",
-    "apkSize": 20275,
-    "apkMd5": "309199ee16a91b96fa5fbdd6694edd2d"
+    "versionName": "0.1.0",
+    "updateContent": "1.修复一些问题",
+    "downloadUrl": "https://capo-release.oss-cn-beijing.aliyuncs.com/app-release-v0.1.0.apk",
+    "apkSize": 20652,
+    "apkMd5": "daffd4c4e1250eafeb68227918652b44"
 }
