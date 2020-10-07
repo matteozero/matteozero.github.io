@@ -4,9 +4,9 @@
     "isForce": false,
     "isIgnorable": false,
     "versionCode": 1,
-    "versionName": "0.1.0",
-    "updateContent": "1. bug fixed",
-    "downloadUrl": "https://capo-release.oss-cn-beijing.aliyuncs.com/app-release-v0.1.0.apk",
-    "apkSize": 20652,
-    "apkMd5": "daffd4c4e1250eafeb68227918652b44 "
+    "versionName": "0.2.0",
+    "updateContent": "Important: Please make sure you have backed up your private key or mnemonic before updating this version.\n1. Support keystore to import wallet\n2. Balance query optimization\n3. Fixed iOS UI stuck problem",
+    "downloadUrl": "https://capo-release.oss-cn-beijing.aliyuncs.com/Capo-release-v0.2.0.apk",
+    "apkSize": 33894,
+    "apkMd5": "111c402621004ab64e9849f44136f0f4 "
 }
