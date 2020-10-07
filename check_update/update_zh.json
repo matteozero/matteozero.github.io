@@ -5,7 +5,7 @@
     "isIgnorable": false,
     "versionCode": 1,
     "versionName": "0.2.0",
-    "updateContent": "重要: 更新此版本前请确认你已备份私钥或助记词 \n1. 支持keystore导入钱包\n2.余额查询优化\n3.修复iOS卡顿问题",
+    "updateContent": "重要: 更新此版本前请确认你已备份私钥或助记词\n备份后请卸载 Capo 后重新安装 \n1. 支持keystore导入钱包\n2.余额查询优化\n3.修复iOS卡顿问题",
     "downloadUrl": "https://capo-release.oss-cn-beijing.aliyuncs.com/Capo-release-v0.2.0.apk",
     "apkSize": 33894,
     "apkMd5": "111c402621004ab64e9849f44136f0f4"
