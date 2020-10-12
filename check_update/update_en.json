@@ -4,9 +4,9 @@
     "isForce": false,
     "isIgnorable": false,
     "versionCode": 1,
-    "versionName": "0.2.0",
-    "updateContent": "Important: Please make sure you have backed up your private key or mnemonic before updating this version.\nPlease uninstall Capo and reinstall after backup\n1. Support keystore to import wallet\n2. Balance query optimization\n3. Fixed iOS UI stuck problem",
-    "downloadUrl": "https://capo-release.oss-cn-beijing.aliyuncs.com/Capo-release-v0.2.0.apk",
+    "versionName": "0.2.1",
+    "updateContent": "Fixed: Android device Send REV Failed",
+    "downloadUrl": "https://capo-release.oss-cn-beijing.aliyuncs.com/Capo-release-v0.2.1.apk",
     "apkSize": 33894,
-    "apkMd5": "81ddfba8f3388f6eab475175f0d1acddeeeee"
+    "apkMd5": "ec6fdd15ee074ebe4137053ede058510"
 }
