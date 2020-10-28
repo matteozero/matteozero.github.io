@@ -5,8 +5,8 @@
     "isIgnorable": false,
     "versionCode": 1,
     "versionName": "0.2.1",
-    "updateContent": "Capo Official website: https://icapo.app\n Important: Please make sure you have backed up your private key or mnemonic before updating this version.\nIf you can’t enter Capo after upgrading.Please uninstall Capo and reinstall from official website after backup\nFixed: Android device Send REV Failed",
-    "downloadUrl": "https://capo-release.oss-cn-beijing.aliyuncs.com/Capo-release-v0.2.1.apk",
+    "updateContent": "Capo Official website: https://icapo.app\n Important: This version cannot be updated directly, please make sure you have backed up your private key or mnemonic phrase\nAfter backing up, please uninstall Capo ,then download from the official website and reinstall \n1. Fixed: Android device Send REV Failed",
+    "downloadUrl": "https://capo-release.oss-cn-beijing.aliyuncs.com/Capo-release-v0.2.1.apk.error",
     "apkSize": 33894,
     "apkMd5": "ec6fdd15ee074ebe4137053ede058510eee"
 }

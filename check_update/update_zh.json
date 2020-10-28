@@ -5,8 +5,8 @@
     "isIgnorable": false,
     "versionCode": 1,
     "versionName": "0.2.1",
-    "updateContent": "Capo 官网: https://icapo.app \n重要: 更新此版本前请确认你已备份私钥或助记词\n升级后如无法进入Capo,请卸载 Capo 后从官网重新下载安装\n修复 Android 转账失败",
-    "downloadUrl": "https://capo-release.oss-cn-beijing.aliyuncs.com/Capo-release-v0.2.1.apk",
+    "updateContent": "Capo 官网: https://icapo.app \n重要: 此版本不能直接更新，请确认你已备份私钥或助记词\n备份后请 卸载Capo 从官网重新下载安装。\n1. 修复 Android 转账失败",
+    "downloadUrl": "https://capo-release.oss-cn-beijing.aliyuncs.com/Capo-release-v0.2.1.apk.error",
     "apkSize": 33894,
     "apkMd5": "ec6fdd15ee074ebe4137053ede058510eee"
 }
