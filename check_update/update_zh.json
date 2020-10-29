@@ -4,9 +4,9 @@
     "isForce": false,
     "isIgnorable": false,
     "versionCode": 1,
-    "versionName": "0.2.1",
-    "updateContent": "Capo 官网: https://icapo.app \n重要: 此版本不能直接更新，请确认你已备份私钥或助记词\n备份后请 卸载Capo 从官网重新下载安装。\n1. 修复 Android 转账失败",
-    "downloadUrl": "https://capo-release.oss-cn-beijing.aliyuncs.com/Capo-release-v0.2.1.apk.error",
-    "apkSize": 33894,
-    "apkMd5": "ec6fdd15ee074ebe4137053ede058510eee"
+    "versionName": "0.2.2",
+    "updateContent": "因个人原因，Capo 以后不再维护更新，请使用其它钱包代替。",
+    "downloadUrl": "",
+    "apkSize": 0,
+    "apkMd5": ""
 }

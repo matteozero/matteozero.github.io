@@ -4,9 +4,9 @@
     "isForce": false,
     "isIgnorable": false,
     "versionCode": 1,
-    "versionName": "0.2.1",
-    "updateContent": "Capo Official website: https://icapo.app\n Important: This version cannot be updated directly, please make sure you have backed up your private key or mnemonic phrase\nAfter backing up, please uninstall Capo ,then download from the official website and reinstall \n1. Fixed: Android device Send REV Failed",
-    "downloadUrl": "https://capo-release.oss-cn-beijing.aliyuncs.com/Capo-release-v0.2.1.apk.error",
+    "versionName": "0.2.2",
+    "updateContent": "Capo will no longer be maintained for personal reasons, please use other wallet instead",
+    "downloadUrl": "",
     "apkSize": 33894,
-    "apkMd5": "ec6fdd15ee074ebe4137053ede058510eee"
+    "apkMd5": ""
 }
