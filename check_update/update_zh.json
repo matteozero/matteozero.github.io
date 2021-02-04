@@ -4,9 +4,9 @@
     "isForce": false,
     "isIgnorable": false,
     "versionCode": 1,
-    "versionName": "0.0.1",
-    "updateContent": "因个人原因，Capo 以后不再维护更新，请使用其它钱包代替。",
-    "downloadUrl": "",
-    "apkSize": 0,
-    "apkMd5": ""
+    "versionName": "0.3.0",
+    "updateContent": "1.Capo DApp REV红包上线\n2.余额查询缓存，进入应用显示最近缓存的余额",
+    "downloadUrl": "https://icapo.app/CapoApk/Capo-releasev0.3.0.apk",
+    "apkSize": 33894,
+    "apkMd5": "8fc78624d20634c47c4650b8bd32e355"
 }

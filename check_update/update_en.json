@@ -4,9 +4,9 @@
     "isForce": false,
     "isIgnorable": false,
     "versionCode": 1,
-    "versionName": "0.0.1",
-    "updateContent": "Capo will no longer be maintained for personal reasons, please use other wallet instead",
-    "downloadUrl": "",
+    "versionName": "0.3.0",
+    "updateContent": "1.The first DApp on Capo goes live.\nCache balance",
+    "downloadUrl": "https://icapo.app/CapoApk/Capo-releasev0.3.0.apk",
     "apkSize": 33894,
-    "apkMd5": ""
+    "apkMd5": "8fc78624d20634c47c4650b8bd32e355"
 }
