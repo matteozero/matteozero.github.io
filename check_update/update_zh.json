@@ -5,7 +5,7 @@
     "isIgnorable": false,
     "versionCode": 1,
     "versionName": "0.3.1",
-    "updateContent": "1.Capo DApp REV红包上线\n2.余额查询缓存，进入应用显示最近缓存的余额\n3.修复一些问题",
+    "updateContent": "升级前，请务必确保已备份私钥或keystore.如升级后遇到使用问题,请卸载钱包后重新安装导入.\n1.Capo DApp REV红包上线\n2.余额查询缓存，进入应用显示最近缓存的余额\n3.修复一些问题",
     "downloadUrl": "https://icapo.app/CapoApk/Capo-releasev0.3.1.apk",
     "apkSize": 33894,
     "apkMd5": "84e8f9d3f7b92f429c0d60af4c34711d"
