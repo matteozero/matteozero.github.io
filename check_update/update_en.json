@@ -4,9 +4,9 @@
     "isForce": false,
     "isIgnorable": false,
     "versionCode": 1,
-    "versionName": "0.3.2",
-    "updateContent": "Before upgrading, please make sure you have backed up your private key or keystore. If you encounter problems after upgrading, please uninstall the wallet and reinstall and import again.\n1.The first DApp on Capo goes live.\n2.Cache balance\n3.Bug Fixed",
-    "downloadUrl": "https://icapo.app/CapoApk/Capo-releasev0.3.2.apk",
+    "versionName": "0.3.3",
+    "updateContent": "Before upgrading, please make sure you have backed up your private key or keystore. If you encounter problems after upgrading, please uninstall the wallet and reinstall and import again.\n1.Open wallet creation and mnemonic import function\n2.The first DApp on Capo goes live.\n3.Cache balance\n4.Bug Fixed",
+    "downloadUrl": "https://icapo.app/CapoApk/Capo-releasev0.3.3.apk",
     "apkSize": 33894,
-    "apkMd5": "72bea172554d4d36b36cfaea0759ceb1"
+    "apkMd5": "82f2ad2229797fd53eabad43beed3916"
 }
