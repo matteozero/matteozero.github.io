@@ -12,7 +12,7 @@ var isiOS = function() {
 var downloadCapoUrlTapped = function() {
     var isiPhone = isiOS();
     if (isiPhone) {
-        alert("apk文件仅 Android 用户使用，iOS 用户请通过下方 TestFlight 下载安装");
+        alert("apk文件仅 Android 用户使用，iOS 用户请通过App Store 下载安装");
         return;
     }
     if ((browser.version.QQ && !browser.version.QQbrw) || browser.version.weiXin ||
@@ -21,7 +21,7 @@ var downloadCapoUrlTapped = function() {
         alert("请在浏览器中打开");
         return;
     }
-    window.location = "https://icapo.app/CapoApk/Capo-releasev0.3.3.apk"; //android下载地址
+    window.location = "https://capo-release.oss-cn-beijing.aliyuncs.com/Capo-releasev0.3.3.apk"; //android下载地址
 };
 
 var browser = {
